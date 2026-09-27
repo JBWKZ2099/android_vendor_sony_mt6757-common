@@ -1,4 +1,4 @@
-# Copyright (C) 2020-2023 The LineageOS Project
+# Copyright (C) 2020-2026 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -355,6 +355,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
@@ -439,6 +441,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Record_AudioParam.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Record_ParamTreeView.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Record_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SmartPa_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SmartPa_ParamUnitDesc.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechDMNR_AudioParam.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechDMNR_ParamUnitDesc.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechEchoRef_AudioParam.xml \
@@ -915,6 +919,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/vendor/firmware/pcm_suspend_lpddr4_by_mp1_mt6355.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pcm_suspend_lpddr4_by_mp1_mt6355.bin \
     vendor/sony/mt6757-common/proprietary/vendor/firmware/pcm_suspend_lpddr4_mt6355.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pcm_suspend_lpddr4_mt6355.bin \
     vendor/sony/mt6757-common/proprietary/vendor/firmware/pcm_suspend_mt6355.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pcm_suspend_mt6355.bin \
+    vendor/sony/mt6757-common/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/sony/mt6757-common/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/sony/mt6757-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl-mediatek.so \
